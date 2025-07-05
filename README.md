@@ -29,7 +29,7 @@ This project demonstrates a custom-trained YOLOv8 model to detect **Oil Palm Tre
 ---
 
 ## Image Source & Preprocessing
-The original images were captured at approximately *200 meter altitude**, where trees were too small to detect accurately.
+The original images were captured at approximately **200 meter altitude**, where trees were too small to detect accurately.
 
 **To address this:**
 * Images were **tiled into 640*640 pixel patch**
