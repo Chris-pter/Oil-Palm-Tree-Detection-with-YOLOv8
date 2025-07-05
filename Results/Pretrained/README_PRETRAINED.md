@@ -2,10 +2,11 @@
 This part shows how the **original YOLOv8n model** performed on my custom dataset of Oil Palm trees and VOPs. It was my **starting point** before i tried training or fine-tuning anything. I used this to see how well a general model would work on specific images.
 
 ## Performance Snapshot
-I was actually surprised by how well the pre-trained model did, even without any extra training: 
+I included a few graphs like the precision, F1 score, normalized confusion matrix, and training metrics over time. While I'm still learning how to read them all in detail, here is what I learned:
+
 * **'Oil Palm' Detection**: It's really good at finding 'Oil Palm' trees, with high accuracy and rarely missing them.
-*  **'VOPs' Detection**: It finds most 'VOPs' but sometimes get confused, a few false positives showed up.
-*  **Overall Accuracy**: The model is quite accurate overall, scoring a high mAP@0.5 of 0.972. This mean it's already retty good at spotting both 'Oil Palm' and 'VOPs' correctly.
+* **'VOPs' Detection**: It finds most 'VOPs' but sometimes get confused, a few false positives showed up.
+* **Overall Accuracy**: The model is quite accurate overall, scoring a high mAP@0.5 of 0.972. This mean it's already pretty good at spotting both 'Oil Palm' and 'VOPs' correctly.
 
 ### Individual Performance Graphs
 Here are the detailed graphs showing how the pretrained YOLOv8n model performed:
@@ -55,8 +56,6 @@ Here are the detailed graphs showing how the pretrained YOLOv8n model performed:
 </p>
 
 ---
-
-**Training and Validation Metrics Over Epochs**
 
 <h4 align="center"> Result: Pretrained_YOLOv8n </h4>
 <p align="center">
