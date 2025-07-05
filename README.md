@@ -110,8 +110,8 @@ Below is a sample of the model detecting Oil Palm and VOPs in actual drone-captu
 ---
 
 ## Downloads
-* [best.pt]()-Final fine-tuned model based on best validation score.
-* [last.pt]()-Final checkpoint from the last training epoch.
+* [best.pt]("Weights/best.pt")-Final fine-tuned model based on best validation score.
+* [last.pt]("Weights/last.pt")-Final checkpoint from the last training epoch.
 
 ---
 
