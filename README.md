@@ -55,7 +55,7 @@ The final model was trained using these 387 annotated images, yielding the resul
 While this variation in lighting helps the model to generalize slightly better, it was not aggressively optimized for light exposures. This project remains a testing and learning experiment, built for exploration and fun.
 
 <p align="center">
-  <img src=" " width=" "/>
+  <img src="Images/Label-studio.jpg" width="600"/>
 </p>
 
 ---
