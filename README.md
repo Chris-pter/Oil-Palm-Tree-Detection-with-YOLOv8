@@ -39,5 +39,25 @@ The original images were captured at approximately *200 meter altitude**, where 
 ---
 
 ## Data Annotation
-- A total of **387 images** were annotated using [Label-Studio](https://labelstud.io/)
-- 
+A total of **387 images** were annotated using [Label-Studio](https://labelstud.io/)
+
+Bouning boxes manually drawn for:
+  * **Oil Palm** (Class 0)
+  *  **VOPs** (Class 1)
+
+Images were selected under **different lighting conditions** (sunlight, shadows, varying exposures) to introduces **visually diversity** and simulate real-world drone capture scenarios.
+
+Labels were exported in **YOLO Format**, compatible with Ultralytics training.
+
+The final model was trained using these 387 annotated images, yielding the results you can see in the detection preview and performance charts.
+
+### Key Consideration
+While this variation in lighting helps the model to generalize slightly better, it was not aggressively optimized for light exposures. This project remains a testing and learning experiment, built for exploration and fun.
+
+<p align="center">
+  <img src=" " width=" "/>
+</p>
+
+---
+
+
