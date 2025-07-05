@@ -136,6 +136,7 @@ This project has been a valuable stepping stone in my journey into machine learn
 *  **Learning by Doing**
     * I found that the best way to learn machine learning is by actually doing it. Trying things out, making           mistakes, and fixing them helped me understand more than just watching videos or reading. Most                   importantly, working on this project helped things make more sense.
 
+---
 
 ## Project Scope & Learning Intent
 
