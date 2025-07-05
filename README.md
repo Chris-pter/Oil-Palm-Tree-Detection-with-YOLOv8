@@ -1,6 +1,6 @@
 # Oil-Palm-Tree-Detection-with-YOLOv8
 
-**This is an exploratory project created while learning Python and Computer Vision. It aims to apply YOLOv8 to drone imagery for oil palm detection as part of a personal geospatial and machine learning journey.
+**This is an exploratory project** created while learning Python and Computer Vision. It aims to apply YOLOv8 to drone imagery for oil palm detection as part of a personal geospatial and machine learning journey.
 
 This project demonstrates a custom-trained YOLOv8 model to detect **Oil Palm Trees** and **VOPs** (Voluntereed Oil Palms) from drone imagery.
 
@@ -43,7 +43,7 @@ A total of **387 images** were annotated using [Label-Studio](https://labelstud.
 
 Bouning boxes manually drawn for:
   * **Oil Palm** (Class 0)
-  *  **VOPs** (Class 1)
+  * **VOPs** (Class 1)
 
 Images were selected under **different lighting conditions** (sunlight, shadows, varying exposures) to introduces **visually diversity** and simulate real-world drone capture scenarios.
 
@@ -124,17 +124,17 @@ This project has been a valuable stepping stone in my journey into machine learn
 ### Key Lessons:
 
 * **Understanding YOLOv8 Workflow**
-    * I learned how to structure a complete object detection pipeline from dataset preparation and annotation to       model training, evaluation, and inference using Ultralytics YOLOv8.
+    * I learned how to structure a complete object detection pipeline from dataset preparation and annotation to model training, evaluation, and inference using Ultralytics YOLOv8.
     </p>
       
 * **Annotation Challenges**
-    * Annotating real-world drone images (especially under different lighting conditions) taught me the                importance of image quality, object scale, and class balance when preparing data for training.
+    * Annotating real-world drone images (especially under different lighting conditions) taught me the importance of image quality, object scale, and class balance when preparing data for training.
       
 *  **The Power of Fine-Tuning**
-    * I learned that starting with a pretrained model and then training it further with my own data can really         help improve results, especially for classes like VOPs that did not work so well at first.
+    * I learned that starting with a pretrained model and then training it further with my own data can really help improve results, especially for classes like VOPs that did not work so well at first.
 
 *  **Learning by Doing**
-    * I found that the best way to learn machine learning is by actually doing it. Trying things out, making           mistakes, and fixing them helped me understand more than just watching videos or reading. Most                   importantly, working on this project helped things make more sense.
+    * I found that the best way to learn machine learning is by actually doing it. Trying things out, making mistakes, and fixing them helped me understand more than just watching videos or reading. Most                         importantly, working on this project helped things make more sense.
 
 ---
 
