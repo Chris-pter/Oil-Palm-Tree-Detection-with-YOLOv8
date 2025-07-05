@@ -1,6 +1,6 @@
 # Oil-Palm-Tree-Detection-with-YOLOv8
 
-**This is an exploratory project88 created while learning Python and Computer Vision. It aims to apply YOLOv8 to drone imagery for oil palm detection as part of a personal geospatial and machine learning journey.
+**This is an exploratory project created while learning Python and Computer Vision. It aims to apply YOLOv8 to drone imagery for oil palm detection as part of a personal geospatial and machine learning journey.
 
 This project demonstrates a custom-trained YOLOv8 model to detect **Oil Palm Trees** and **VOPs** (Voluntereed Oil Palms) from drone imagery.
 
@@ -110,8 +110,8 @@ Below is a sample of the model detecting Oil Palm and VOPs in actual drone-captu
 ---
 
 ## Downloads
-* [best.pt]("Weights/best.pt")-Final fine-tuned model based on best validation score.
-* [last.pt]("Weights/last.pt")-Final checkpoint from the last training epoch.
+* [best.pt]("../Weights/best.pt")-Final fine-tuned model based on best validation score.
+* [last.pt]("../Weights/last.pt")-Final checkpoint from the last training epoch.
 
 ---
 
