@@ -110,7 +110,7 @@ Below is a sample of the model detecting Oil Palm and VOPs in actual drone-captu
 ---
 
 ## Downloads
-* [best.pt]("https://github.com/Chris-pter/Oil-Palm-Tree-Detection-with-YOLOv8/raw/main/Weights/best.pt")-Final fine-tuned model based on best validation score.
+* [best.pt](https://github.com/Chris-pter/Oil-Palm-Tree-Detection-with-YOLOv8/raw/main/Weights/best.pt)-Final fine-tuned model based on best validation score.
 * [last.pt]("../Weights/last.pt")-Final checkpoint from the last training epoch.
 
 ---
