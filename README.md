@@ -62,7 +62,7 @@ While this variation in lighting helps the model to generalize slightly better, 
 
 ## Model Training
 
-Training was performed across **five iterative batches** to progressively improve model performance.
+Training was performed across **five iterative batches** to progressively improve model performance.In stage 1, I used default yolov8n.pt model. Then, in stage 2-5, I fine-tuned the model using the best.pt file from the previous round. To keep things fair and consistent, I used the same training settings for all fine-tuning stages, each one was trained for 50 epochs.
 
 ## Stage 1: Initial Training drom Pretrained YOLOv8n
 Train using the default 'yolov8n.pt' weights and your custom data.
