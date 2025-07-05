@@ -8,12 +8,12 @@ This project demonstrates a custom-trained YOLOv8 model to detect **Oil Palm Tre
 
 ## Sample Detection
 <p align="center">
-  <img src=" " width= " "/>
-  <img src=" " width= " "/>
-  <img src=" " width= " "/>
-  <img src=" " width= " "/>
-  <img src=" " width= " "/>
-  <img src=" " width= " "/>
+  <img src="Images/tile_161.jpg" width= "300"/>
+  <img src="Images/tile_134.jpg" width= "300 "/>
+  <img src="Images/tile_144.jpg" width= "300 "/>
+  <img src="Images/tile_177.jpg" width= "300 "/>
+  <img src="Images/tile_217.jpg" width= "300 "/>
+  <img src="Images/tile_225.jpg" width= "300 "/>
 <p/>
 
 ---
