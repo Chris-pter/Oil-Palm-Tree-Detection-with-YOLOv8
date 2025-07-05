@@ -1,6 +1,6 @@
 # Oil-Palm-Tree-Detection-with-YOLOv8
 
-**This is ab exploratory project88 created while learning Python and Computer Vision. It aims to apply YOLOv8 to drone imagery for oil palm detection as part of a personal geospatial and machine learning journey.
+**This is an exploratory project88 created while learning Python and Computer Vision. It aims to apply YOLOv8 to drone imagery for oil palm detection as part of a personal geospatial and machine learning journey.
 
 This project demonstrates a custom-trained YOLOv8 model to detect **Oil Palm Trees** and **VOPs** (Voluntereed Oil Palms) from drone imagery.
 
@@ -150,7 +150,27 @@ This project was created as part of my learning journey in geospatial data, mach
 
 ---
 
+## Potential Applications & Future Direction
 
+While this project is intended as a self-exploration into computer vision and geospatial workflows, and there are no plans for further training, the current model and its development process still sugest several exciting directions this work could be extended to:
+
+* **Crop Health monitoring**
+    - Integrate NDVI or RGB-based sensors to classify tree health based on leaf color, canopy density, or even signs of pest/disease stress.
+* **Mature/Immature Tree Classification**
+    - Expand class labels to detect between mature palms, young palms, or recently planted areas.
+* **Spatial Mapping & Yield Estimation
+    - Combine detection result with GPS/Coordinate data and plantation metadata to estimate tree counts per block or per hectare, aiding in yield planning or       auditing.
+ 
+**This ideas are not implemented in this project but represented valuable extensions for those interested in combining machine learning with agriculture, GIS, remote sensing, particularly from a learning and experimentation perspective.**
+
+---
+
+## References
+
+* [Ultralytics YOLO Docs](https://docs.ultralytics.com/)-For model training, inference, and export workflows.
+* [Label Studio](https://labelstud.io/)-For flexible image annotation and YOLO-format export.
+
+  You are welcome to **explore**, **modify the base code**, and reuse it for **non-commercial learning**, **testing, and experimentation.**
 
 
 
