@@ -146,7 +146,8 @@ This project was created as part of my learning journey in geospatial data, mach
 * Annotation was done using **Label-Studio**, focusing on two classes: **Oil Palm** and **VOPs**.
 * Images were captured under various lighting conditions to add diversity, but the model was not aggressively optimized for such variation.
 * **No further training or model updates** are currently planned, this is intended as a personal exploration.
-* I hope this repository can serve as a helpful reference for others who are curious about starting out in machine learning or working with real-world drone and geospatial data.
+  
+* **I hope this repository can serve as a helpful reference for others who are curious about starting out in machine learning or working with real-world drone and geospatial data.**
 
 ---
 
@@ -158,7 +159,7 @@ While this project is intended as a self-exploration into computer vision and ge
     - Integrate NDVI or RGB-based sensors to classify tree health based on leaf color, canopy density, or even signs of pest/disease stress.
 * **Mature/Immature Tree Classification**
     - Expand class labels to detect between mature palms, young palms, or recently planted areas.
-* **Spatial Mapping & Yield Estimation
+* ** Spatial Mapping & Yield Estimation
     - Combine detection result with GPS/Coordinate data and plantation metadata to estimate tree counts per block or per hectare, aiding in yield planning or       auditing.
  
 **This ideas are not implemented in this project but represented valuable extensions for those interested in combining machine learning with agriculture, GIS, remote sensing, particularly from a learning and experimentation perspective.**
