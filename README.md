@@ -159,7 +159,7 @@ While this project is intended as a self-exploration into computer vision and ge
     - Integrate NDVI or RGB-based sensors to classify tree health based on leaf color, canopy density, or even signs of pest/disease stress.
 * **Mature/Immature Tree Classification**
     - Expand class labels to detect between mature palms, young palms, or recently planted areas.
-* ** Spatial Mapping & Yield Estimation
+* **Spatial Mapping & Yield Estimation**
     - Combine detection result with GPS/Coordinate data and plantation metadata to estimate tree counts per block or per hectare, aiding in yield planning or       auditing.
  
 **This ideas are not implemented in this project but represented valuable extensions for those interested in combining machine learning with agriculture, GIS, remote sensing, particularly from a learning and experimentation perspective.**
