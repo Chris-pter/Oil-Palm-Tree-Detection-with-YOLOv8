@@ -115,6 +115,20 @@ Below is a sample of the model detecting Oil Palm and VOPs in actual drone-captu
 
 ---
 
+## Project Scope & Learning Intent
+
+This project was created as part of my learning journey in geospatial data, machine learning, and python. It is not intended to be a final or deployable product. but rather a hands-on exploration into how object detection works using drone imagery and YOLOv8n.
+
+### Key Notes:
+* The model was trained in a **limited datasets**(387 annotated images) and is best suited for frone imagery captured at approximately 30-50 meters in altitude.
+* Annotation was done using **Label-Studio**, focusing on two classes: **Oil Palm** and **VOPs**.
+* Images were captured under various lighting conditions to add diversity, but the model was not aggressively optimized for such variation.
+* **No further training or model updates** are currently planned, this is intended as a personal exploration.
+  
+* **I hope this repository can serve as a helpful reference for others who are curious about starting out in machine learning or working with real-world drone and geospatial data.**
+
+---
+
 ## What I Learned
 
 <p align="justify">
@@ -135,20 +149,6 @@ This project has been a valuable stepping stone in my journey into machine learn
 
 *  **Learning by Doing**
     * I found that the best way to learn machine learning is by actually doing it. Trying things out, making mistakes, and fixing them helped me understand more than just watching videos or reading. Most                         importantly, working on this project helped things make more sense.
-
----
-
-## Project Scope & Learning Intent
-
-This project was created as part of my learning journey in geospatial data, machine learning, and python. It is not intended to be a final or deployable product. but rather a hands-on exploration into how object detection works using drone imagery and YOLOv8n.
-
-### Key Notes:
-* The model was trained in a **limited datasets**(387 annotated images) and is best suited for frone imagery captured at approximately 30-50 meters in altitude.
-* Annotation was done using **Label-Studio**, focusing on two classes: **Oil Palm** and **VOPs**.
-* Images were captured under various lighting conditions to add diversity, but the model was not aggressively optimized for such variation.
-* **No further training or model updates** are currently planned, this is intended as a personal exploration.
-  
-* **I hope this repository can serve as a helpful reference for others who are curious about starting out in machine learning or working with real-world drone and geospatial data.**
 
 ---
 
