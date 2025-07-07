@@ -1,5 +1,5 @@
 #predict.py
-#Run ibject detection on images, videos, or folders using a trained YOLO model
+#Run object detection on images, videos, or folders using a trained YOLO model
 
 from ultralytics import YOLO
 
