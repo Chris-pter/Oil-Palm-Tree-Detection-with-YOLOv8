@@ -67,17 +67,17 @@ Training was performed across **five iterative batches** to progressively improv
 ## Stage 1: Initial Training from Pretrained YOLOv8n
 Train using the default 'yolov8n.pt' weights and your custom data.
 
-  [View Code: 'Train_Initial_YOLOv8n.py](Training/Train_Initial_Yolov8n.py)
+  [View Code: Train_Initial_YOLOv8n.py](Training/Train_Initial_Yolov8n.py)
 
 ### Stage 2-5: Fine-Tuning from previous Best Checkpoints
 Each stage uses 'best.pt' model from the previous batch for further training and refinement.
 
-  [View Code: 'Finetune.py](Training/Finetune.py)
+  [View Code: Finetune.py](Training/Finetune.py)
 
 ### Inference (Prediction)
 Run object detection on images, folders or videos using the final trained model.
 
-  [View Code: 'Predict.py](Training/Predict.py)
+  [View Code: Predict.py](Training/Predict.py)
 
 ---
 
