@@ -90,8 +90,8 @@ Run object detection on images, folders or videos using the final trained model.
 ### Model Performance
 **For a comprehensive look at the detection capabilities**
 
-* **[Explore Pretrained Model results Here]( )**
-* **[Discover Fine-tuned Model & Comparision Performance Here]( )**
+* **[Explore Pretrained Model results Here](Results/Pretrained/README_PRETRAINED.md)**
+* **[Discover Fine-tuned Model & Comparision Performance Here](Results/Finetuned_model/README_FINETUNED.md)**
 
 ### Important
 * **CONTEXTUAL DETECTION RANGE:** It's important to note that this model was primarily trained on imagery captured within a **30-50 meter range**. Its detection capabilities may therefore be limited or less reliable when applied to significantly higher zoom-out level images.
