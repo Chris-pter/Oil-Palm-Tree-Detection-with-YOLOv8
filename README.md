@@ -67,7 +67,7 @@ Training was performed across **five iterative batches** to progressively improv
 ## Stage 1: Initial Training drom Pretrained YOLOv8n
 Train using the default 'yolov8n.pt' weights and your custom data.
 
-  [View Code: 'Train_Initial_YOLOv8n.py]( )
+  [View Code: 'Train_Initial_YOLOv8n.py](Training/Train_Initial_Yolov8n.py)
 
 ### Stage 2-5: Fine-Tuning from previous Best Checkpoints
 Each stage uses 'best.pt' model from the previous batch for further training and refinement.
