@@ -1,14 +1,12 @@
 ## **YOLOv8n Fine-tuned Model Performance**
 
-This reporsitory section details the enhanced performance of the fine-tuned YOLOv8n model on the custom Oil Palm and VOPs dataset. This fine tuning process aimed to adapt the model's generalized knowledge to the specific characteristics of our target objects, building upon the baseline established by the pretrained model.
+This section shows how the YOLOv8n model performed after i trained it several times using my own Oil Palm and VOPs images. The goal was to help the model improve on my custom dataset, especially in detecting the more difficult VOPs class.
 
 ### **Insights from Fine-Tuning**
-While exploring YOLOv8n fine-tuning, I noticed encouraging improvements compared to the base pretrained model. One of the most interesting results was the better performance on the 'VOPs' class, which initially lagged behind 'Oil Palm'. After a few training rounds, the model seems to reduce false positives for VOPs, making the detection more consistent.
+While experimenting with fine-tuning, I saw some nice improvements. The model became better at recognizing **VOPs**, which was the harder class at first. Although the **mAP@0.5** dropped a little (from 0.972 to 0.9689), the predictions for both classes started to feel more balanced. The **F1 Score** stayed at 0.92, but now peaks at a lower confidence, which might mean the model is more confident with fewer mistakes.
 
-The overall mAP@0.5 dropped just slightly from 0.972 to 0.9689, something I'm still trying to understand fully but it seems like this trade-off actually helped the model become more balanced between both class. Aso, the F1 score stayed strong at 0.92, but now peaks at a slightly lower confidence threshold (0.397 vs 0.459), which might suggest the model is becoming better calibrated in this dataset.
-
-* Overall, this was a valueable learnining experience in how fine-tuning affects precision, recall, and confidence calibration, especially in real-world image conditions and class imbalance. There's still room to improve, but this step showed me how subtle changes during training can shift model behavior in meaningful ways.
-
+* Overall, it was a fun and valuable learning process. Watching the model improve helped me understand how training can shape the results, even with a small dataset.
+  
 ---
 
 ## **Performance Analysis & Comparison**
@@ -19,7 +17,7 @@ The overall mAP@0.5 dropped just slightly from 0.972 to 0.9689, something I'm st
 <img src="P_curve.png" alt="Fine-tuned YOLOv8n Precision-Confidence Curve" width="48%">
 </p>
 <p align="center">
-<em>Figure 1: Side-by-side comparison of Precision-Confidence curves. The fine-tuned model (right) demonstrates a marked improvement in 'VOPs' precision, closing the performance gap with 'Oil Palm' compared to the pretrained model (left).</em>
+<em>Figure 1: The fine-tuned model (right) shows slightly better precision for VOPs at different confidence levels. Oil Palm stayed strong in both models.</em>
 </p>
 
 ---
@@ -31,7 +29,7 @@ The overall mAP@0.5 dropped just slightly from 0.972 to 0.9689, something I'm st
 <img src="F1_curve.png" alt="Fine-tuned YOLOv8n F1-Confidence Curve" width="48%">
 </p>
 <p align="center">
-<em>Figure 2: Side-by-side comparison of F1-Confidence curves. In the fine-tuned model (right), the F1 score for 'VOPs' seems much closer to 'Oil Palm', which I think suggests a more balanced precision-recall relationship. Interestingly, the optimal confidence threshold also shifted slightly to 0.397, but it looks like the model might be calibrating better after training on more specific examples.</em>
+<em>Figure 2: Side-by-side comparison of F1-Confidence curves. In the fine-tuned model (right),the F1 score for VOPs improved and got closer to Oil Palm. This shows a more balanced detection between both classes.</em>
 </p>
 
 ---
@@ -41,7 +39,7 @@ The overall mAP@0.5 dropped just slightly from 0.972 to 0.9689, something I'm st
   <img src="../pretrained/PR_curve.png" alt="Pretrained YOLOv8n Precision-Recall Curve" width="48%">
   <img src="PR_curve.png" alt="Fine-tuned YOLOv8n Precision-Recall Curve" width="48%"> 
 </p> 
-<p align="center"> <em>Figure 3: Side-by-side Precision-Recall comparison. The fine-tuned model (right) appears to maintain a more balanced relationship between precision and recall for both 'Oil Palm' and 'VOPs'. Although there's a small dip in overall mAP@0.5 (from 0.972 to 0.968), the curve shape feels more stable especially for VOPs which could mean the model is gaining better confidence in handling both classes. Still learning how to interpret these details, but the improvement looks promising.</em> 
+<p align="center"> <em>Figure 3: Side-by-side Precision-Recall comparison. The fine-tuned model (right) appears to maintain a more balanced relationship between precision and recall for both 'Oil Palm' and 'VOPs'. A general view of how well the model detects objects. The fine-tuned model still performs well, especially in maintaining good recall for both classes.</em> 
 </p>
 
 ---
