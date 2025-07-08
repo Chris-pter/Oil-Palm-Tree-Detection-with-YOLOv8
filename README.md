@@ -55,7 +55,7 @@ The original images were captured at approximately **200 meter altitude**, where
 ## Data Annotation
 A total of **387 images** were annotated using [Label-Studio](https://labelstud.io/)
 
-Bouning boxes manually drawn for:
+Bounding boxes manually drawn for:
   * **Oil Palm** (Class 0)
   * **VOPs** (Class 1)
 
