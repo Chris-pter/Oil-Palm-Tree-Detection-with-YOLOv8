@@ -1,25 +1,24 @@
 # Oil-Palm-Tree-Detection-with-YOLOv8
-<p allign="center">
 **This is an exploratory project** created while learning Python and Computer Vision. It aims to apply YOLOv8 to drone imagery for oil palm detection as part of a personal geospatial and machine learning journey.
 
 This project demonstrates a custom-trained YOLOv8 model to detect **Oil Palm Trees** and **VOPs** (Voluntereed Oil Palms) from drone imagery.
-</p>
 
 ---
 
 ## The Downside of Volunteered Oil Palms (VOPs)
-<p allign="center">
 **Please note:** As the project creator, I am not an agriculture professional nor do I have a background in agricultural education. This information is provided to help general audiences understand why detecting VOPs is so important in the oil palm industry.
 
 While the model successfully detects "VOPs", their presence is generally a significant problem in commercial oil palm plantations for several key reasons, impacting efficiency and profitablility:
-</p>
+  
 **Here's why:**
-1.  **Reduced Oil Palm Yield (Like "Bad Apples":** Imagine a farmer carefully plants a field with a high-yielding variety of oil palm. VOPs are like "wild" oil palm trees that sprout randomly from dropped seed. They grow from random seeds and dont't produce nearly as much valuable palm oil as the good, planned trees. This means the farm makes less oil overall.
+1.  **Reduced Oil Palm Yield:** Imagine you carefully plants a field with a high-yielding variety of oil palm. VOPs are like "wild" oil palm trees that sprout randomly from dropped seed. They grow from random seeds and dont't produce nearly as much valuable palm oil as the good, planned trees. This means the farm makes less oil overall.
 2.  **Steaking Resources:** Every VOP growing on the farm fights the "good" oil palm trees for sunlight, water, and even food(fertilizer). This competition makes the healty, productive trees struggle, taking away resources they need to make more oil. This leads to lower harvests for the whole farm.
 3.  **More Work, More Cost:** Oil palm plantations are set up with neat rows for easy harvesting and care. But VOPs sprout randomly, messing up these neat lines. This make it harder and slower for workers to harvest the fruit or take care of the trees, which drives up the plantation's cost.
 4.  **Possibile Diesease Risk:** Sometimes, these unmanaged VOPs might carry pest or diseases that could then spread to the main crop, putting all the healthy oil palm trees at risk.
 
 So, even though VOPs are technically oil palm trees, they're really like **unwanted guests** that cause problems on the plantation. 
+
+---
 
 ## Sample Detection
 <p align="center">
