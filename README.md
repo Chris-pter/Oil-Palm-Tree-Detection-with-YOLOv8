@@ -154,7 +154,7 @@ This project is licensed under the **GNU Affero General Public License v3.0 (AGP
 GNU AFFERO GENERAL PUBLIC LICENSE
                        Version 3, 19 November 2007
 
-Copyright (c) 2025 your Chris-pter
+Copyright (c) 2025 Chris-pter
 
 Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
 
