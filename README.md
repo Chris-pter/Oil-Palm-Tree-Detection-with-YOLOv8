@@ -116,10 +116,8 @@ Run object detection on images, folders or videos using the final trained model.
 Below is a sample of the model detecting Oil Palm and VOPs in actual drone-captured video:
 
 <p align="center">
-  <img src=" " width=" "/>
+  <img src="Images/Detection.gif" width="500"/>
 </p>
-
-![Model Detection GIF]( )
 
 ---
 
