@@ -1,0 +1,7 @@
+ultralytics==8.0.178
+label-studio==1.11.0
+opencv-python
+jupyter
+
+#Install dependencies
+pip install -r requirements.txt
