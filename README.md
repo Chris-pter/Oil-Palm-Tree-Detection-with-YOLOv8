@@ -150,6 +150,11 @@ This project was created as part of my learning journey in geospatial data, mach
 
 You are welcome to **explore**, **modify the base code**, and reuse it for **non-commercial learning**, **testing, and experimentation.**
 
+---
+
+### License
+This project is licensed under the [Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/).
+
 
 
 
