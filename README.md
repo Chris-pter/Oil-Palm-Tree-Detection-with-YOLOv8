@@ -52,6 +52,7 @@ A total of **387 images** were annotated using [Label-Studio](https://labelstud.
 
 <details>
 <summary>Click to expand</summary>
+  
 Bounding boxes manually drawn for:
   * **Oil Palm** (Class 0)
   * **VOPs** (Class 1)
