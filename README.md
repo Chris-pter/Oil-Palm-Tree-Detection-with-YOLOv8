@@ -37,10 +37,10 @@ Below is a sample of the model detecting Oil Palm and VOPs in actual drone-captu
 ---
 
 ## Image Source & Preprocessing
-The original images were captured at approximately **200 meter altitude**, where trees were too small to detect accurately.
+The original images were captured at approximately **200 meters altitude**, where trees were too small to detect accurately.
 
 **To address this:**
-* Images were **tiled into 640*640 pixel patch**
+* Images were **tiled into 640 X 640 pixel patches**
 * Only tiles representing a **visual zoom of 30-50 meters** were used for annotation
 * Tiles were then used for training the YOLOv8 model.
 
@@ -54,7 +54,7 @@ Bounding boxes manually drawn for:
   * **Oil Palm** (Class 0)
   * **VOPs** (Class 1)
 
-Images were selected under **different lighting conditions** (sunlight, shadows, varying exposures) to **introduces visual diversity** and simulate real-world drone capture scenarios.
+Images were selected under **different lighting conditions** (sunlight, shadows, varying exposures) to **introduce visual diversity** and simulate real-world drone capture scenarios.
 
 Labels were exported in **YOLO Format**, compatible with Ultralytics training.
 
@@ -71,7 +71,7 @@ While this variation in lighting helps the model to generalize slightly better, 
 
 ## Model Training
 
-Training was performed across **five iterative batches** to progressively improve model performance.In stage 1, I used default yolov8n.pt model. Then, in stage 2-5, I fine-tuned the model using the best.pt file from the previous round. To keep things fair and consistent, I used the same training settings for all fine-tuning stages, each one was trained for 50 epochs.
+Training was performed across **five iterative batches** to progressively improve model performance. In stage 1, I used default yolov8n.pt model. Then, in stage 2-5, I fine-tuned the model using the best.pt file from the previous round. To keep things fair and consistent, I used the same training settings for all fine-tuning stages, each one was trained for 50 epochs.
 
 ## Stage 1: Initial Training from Pretrained YOLOv8n
 Train using the default 'yolov8n.pt' weights and your custom data.
@@ -106,8 +106,8 @@ Run object detection on images, folders or videos using the final trained model.
 
 **For a comprehensive look at the detection capabilities**
 
-* **[Explore Pretrained Model results Here](Results/Pretrained/README_PRETRAINED.md)**
-* **[Discover Fine-tuned Model & Comparison Performance Here](Results/Finetuned_model/README_FINETUNED.md)**
+* **[Explore pretrained Model results Here](Results/Pretrained/README_PRETRAINED.md)**
+* **[Discover fine-tuned Model & Comparison Performance Here](Results/Finetuned_model/README_FINETUNED.md)**
   
 ### Important
 * **CONTEXTUAL DETECTION RANGE:** It's important to note that this model was primarily trained on imagery captured within a **30-50 meter range**. Its detection capabilities may therefore be limited or less reliable when applied to significantly higher zoom-out level images.
