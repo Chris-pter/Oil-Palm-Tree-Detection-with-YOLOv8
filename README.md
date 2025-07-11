@@ -1,7 +1,7 @@
 # Oil-Palm-Tree-Detection-with-YOLOv8
 **This is an exploratory project** created while learning Python and Computer Vision. It aims to apply YOLOv8 to drone imagery for oil palm detection as part of a personal geospatial and machine learning journey.
 
-This project demonstrates a custom-trained YOLOv8 model to detect **Oil Palm Trees** and **VOPs** (Volunteered Oil Palms) from drone imagery. This is totally an exploratory project for me, part of my own geospatial and machine learning adventure. What I really want to show with it is how even a custom-trained YOLOv8 model can be put together using a **super simple (basic)** method. So if you're beginner looking to get into machine learning, especially object detection, this is definetly a great starting point to see how it all comes together.
+This project demonstrates a custom-trained YOLOv8 model to detect **Oil Palm Trees** and **VOPs** (Volunteered Oil Palms) from drone imagery. This is totally an exploratory project for me, part of my own geospatial and machine learning adventure. What I really want to show with it is how even a custom-trained YOLOv8 model can be put together using a **super simple (basic)** method. So if you're beginner looking to get into machine learning, especially object detection, this is definitely a great starting point to see how it all comes together.
 
 ---
 
@@ -54,7 +54,7 @@ Bounding boxes manually drawn for:
   * **Oil Palm** (Class 0)
   * **VOPs** (Class 1)
 
-Images were selected under **different lighting conditions** (sunlight, shadows, varying exposures) to introduces **visually diversity** and simulate real-world drone capture scenarios.
+Images were selected under **different lighting conditions** (sunlight, shadows, varying exposures) to **introduces visual diversity** and simulate real-world drone capture scenarios.
 
 Labels were exported in **YOLO Format**, compatible with Ultralytics training.
 
@@ -79,7 +79,7 @@ Train using the default 'yolov8n.pt' weights and your custom data.
   [View Code: Train_Initial_YOLOv8n.py](Training/Train_Initial_Yolov8n.py)
 
 ### Stage 2-5: Fine-Tuning from previous Best Checkpoints
-Each stage uses 'best.pt' model from the previous batch for further training and refinement.
+Each stage uses 'best.pt' model from the previous batch for further training and adaptation.
 
   [View Code: Finetune.py](Training/Finetune.py)
 
@@ -98,7 +98,7 @@ Run object detection on images, folders or videos using the final trained model.
 
 * **Elevated 'VOPs' Precision:** Fine-tuning efforts yielded positive steps forward in identifying "VOPs" more accurately, and encouraging sign for this more challenging class.
 * **Solid "Oil Palm" Foundations:** The model largely  retained its strong ability to detect "Oil Palm", indicating that its core capabilities were well-preserved during adaption.
-* **A More Balanced Approach:** This iteration of the model demonstrates a more balanced performance across both categories, providing a more consistent detection experiences as i continue the investigation.
+* **A More Balanced Approach:** This iteration of the model demonstrates a more balanced performance across both categories, providing a more consistent detection experiences as i continue the exploration.
 
 </details>
 
@@ -107,7 +107,7 @@ Run object detection on images, folders or videos using the final trained model.
 **For a comprehensive look at the detection capabilities**
 
 * **[Explore Pretrained Model results Here](Results/Pretrained/README_PRETRAINED.md)**
-* **[Discover Fine-tuned Model & Comparision Performance Here](Results/Finetuned_model/README_FINETUNED.md)**
+* **[Discover Fine-tuned Model & Comparison Performance Here](Results/Finetuned_model/README_FINETUNED.md)**
   
 ### Important
 * **CONTEXTUAL DETECTION RANGE:** It's important to note that this model was primarily trained on imagery captured within a **30-50 meter range**. Its detection capabilities may therefore be limited or less reliable when applied to significantly higher zoom-out level images.
@@ -127,7 +127,7 @@ Run object detection on images, folders or videos using the final trained model.
 This project was created as part of my learning journey in geospatial data, machine learning, and python. It is not intended to be a final or deployable product. but rather a hands-on exploration into how object detection works using drone imagery and YOLOv8n.
 
 ### Key Notes:
-* The model was trained in a **limited datasets**(387 annotated images) and is best suited for frone imagery captured at approximately 30-50 meters in altitude.
+* The model was trained in a **limited datasets**(387 annotated images) and is best suited for drone imagery captured at approximately 30-50 meters in altitude.
 * Annotation was done using **Label-Studio**, focusing on two classes: **Oil Palm** and **VOPs**.
 * Images were captured under various lighting conditions to add diversity, but the model was not aggressively optimized for such variation.
 * **No further training or model updates** are currently planned, this is intended as a personal exploration.
