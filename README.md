@@ -161,9 +161,9 @@ Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
 Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.
 
 
-[For the full text]("/License")
+[For the full text]("../License")
 
-[**AGPL-3.0 license*](https://choosealicense.com/licenses/agpl-3.0/)
+[**AGPL-3.0 license**](https://choosealicense.com/licenses/agpl-3.0/)
 
 
 
