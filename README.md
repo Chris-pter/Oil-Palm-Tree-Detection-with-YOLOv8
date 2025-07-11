@@ -17,6 +17,15 @@ This project demonstrates a custom-trained YOLOv8 model to detect **Oil Palm Tre
 
 ---
 
+## Model in Action
+Below is a sample of the model detecting Oil Palm and VOPs in actual drone-captured video:
+
+<p align="center">
+  <img src="Images/Detection.gif" width="500"/>
+</p>
+
+---
+
 ## Project Overview
 
 ### Task: Detect Oil Palm Trees Using Aerial Drone Imagery
@@ -94,15 +103,6 @@ Run object detection on images, folders or videos using the final trained model.
 
 ### Important
 * **CONTEXTUAL DETECTION RANGE:** It's important to note that this model was primarily trained on imagery captured within a **30-50 meter range**. Its detection capabilities may therefore be limited or less reliable when applied to significantly higher zoom-out level images.
-
----
-
-## Model in Action
-Below is a sample of the model detecting Oil Palm and VOPs in actual drone-captured video:
-
-<p align="center">
-  <img src="Images/Detection.gif" width="500"/>
-</p>
 
 ---
 
