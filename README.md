@@ -153,17 +153,21 @@ You are welcome to **explore**, **modify the base code**, and reuse it for **lea
 ---
 
 ### License
+
+This project is licensed under the **GNU Affero General Public License v3.0 (AGPL-3.0)**.
+
 GNU AFFERO GENERAL PUBLIC LICENSE
                        Version 3, 19 November 2007
 
+Copyright (c) 2025 your Chris-pter
 Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
 
 Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.
 
 
-[Refer License full text Here](./LICENSE)
+See the [LICENSE](./LICENSE)
 
-[**AGPL-3.0 license**](https://choosealicense.com/licenses/agpl-3.0/)
+Learn More: [**AGPL-3.0 license**](https://choosealicense.com/licenses/agpl-3.0/)
 
 
 
