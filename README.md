@@ -97,15 +97,10 @@ Run object detection on images, folders or videos using the final trained model.
 
 ## Key Results & Takeaways
 
-<details>
-  
-<summary>Click to read</summary>
 
 * **Elevated 'VOPs' Precision:** Fine-tuning efforts yielded positive steps forward in identifying "VOPs" more accurately, and encouraging sign for this more challenging class.
 * **Solid "Oil Palm" Foundations:** The model largely  retained its strong ability to detect "Oil Palm", indicating that its core capabilities were well-preserved during adaption.
 * **A More Balanced Approach:** This iteration of the model demonstrates a more balanced performance across both categories, providing a more consistent detection experiences as i continue the exploration.
-
-</details>
 
 ### Model Performance
 
