@@ -50,6 +50,8 @@ The original images were captured at approximately **200 meters altitude**, wher
 
 A total of **387 images** were annotated using [Label-Studio](https://labelstud.io/)
 
+<details>
+<summary>Click to expand</summary>
 Bounding boxes manually drawn for:
   * **Oil Palm** (Class 0)
   * **VOPs** (Class 1)
@@ -59,6 +61,8 @@ Images were selected under **different lighting conditions** (sunlight, shadows,
 Labels were exported in **YOLO Format**, compatible with Ultralytics training.
 
 The final model was trained using these 387 annotated images, yielding the results you can see in the detection preview and performance charts.
+
+</details>
 
 ### Key Consideration
 While this variation in lighting helps the model to generalize slightly better, it was not aggressively optimized for light exposures. This project remains a testing and learning experiment, built for exploration and fun.
@@ -94,7 +98,7 @@ Run object detection on images, folders or videos using the final trained model.
 
 <details>
   
-<summary>Click to expand</summary>
+<summary>Click to read</summary>
 
 * **Elevated 'VOPs' Precision:** Fine-tuning efforts yielded positive steps forward in identifying "VOPs" more accurately, and encouraging sign for this more challenging class.
 * **Solid "Oil Palm" Foundations:** The model largely  retained its strong ability to detect "Oil Palm", indicating that its core capabilities were well-preserved during adaption.
