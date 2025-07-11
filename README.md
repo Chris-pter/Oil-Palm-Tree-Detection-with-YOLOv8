@@ -5,21 +5,6 @@ This project demonstrates a custom-trained YOLOv8 model to detect **Oil Palm Tre
 
 ---
 
-## The Downside of Volunteered Oil Palms (VOPs)
-**Please note:** As the project creator, I am not an agriculture professional nor do I have a background in agricultural education. This information is provided to help general audiences understand why detecting VOPs is so important in the oil palm industry.
-
-While the model successfully detects "VOPs", their presence is generally a significant problem in commercial oil palm plantations for several key reasons, impacting efficiency and profitablility:
-  
-**Here's why:**
-1.  **Reduced Oil Palm Yield:** Imagine you carefully plants a field with a high-yielding variety of oil palm. VOPs are like "wild" oil palm trees that sprout randomly from dropped seed. They grow from random seeds and dont't produce nearly as much valuable palm oil as the good, planned trees. This means the farm makes less oil overall.
-2.  **Steaking Resources:** Every VOP growing on the farm fights the "good" oil palm trees for sunlight, water, and even food(fertilizer). This competition makes the healty, productive trees struggle, taking away resources they need to make more oil. This leads to lower harvests for the whole farm.
-3.  **More Work, More Cost:** Oil palm plantations are set up with neat rows for easy harvesting and care. But VOPs sprout randomly, messing up these neat lines. This make it harder and slower for workers to harvest the fruit or take care of the trees, which drives up the plantation's cost.
-4.  **Possibile Diesease Risk:** Sometimes, these unmanaged VOPs might carry pest or diseases that could then spread to the main crop, putting all the healthy oil palm trees at risk.
-
-So, even though VOPs are technically oil palm trees, they're really like **unwanted guests** that cause problems on the plantation. 
-
----
-
 ## Sample Detection
 <p align="center">
   <img src="Images/tile_161.jpg" width= "300"/>
@@ -138,45 +123,7 @@ This project was created as part of my learning journey in geospatial data, mach
 * **No further training or model updates** are currently planned, this is intended as a personal exploration.
   
 * **I hope this repository can serve as a helpful reference for others who are curious about starting out in machine learning or working with real-world drone and geospatial data.**
-
----
-
-## What I Learned
-
-<p align="justify">
-This project has been a valuable stepping stone in my journey into machine learning, computer vision and Python. While the primarily goal was to try out object detection with YOLOv8, I ended up learning far more than expected, both technically and conceptually.
-</p>
-
-### Key Lessons:
-
-* **Understanding YOLOv8 Workflow**
-    * I learned how to structure a complete object detection pipeline from dataset preparation and annotation to model training, evaluation, and inference using Ultralytics YOLOv8.
-    </p>
-      
-* **Annotation Challenges**
-    * Annotating real-world drone images (especially under different lighting conditions) taught me the importance of image quality, object scale, and class balance when preparing data for training.
-      
-*  **The Power of Fine-Tuning**
-    * I learned that starting with a pretrained model and then training it further with my own data can really help improve results, especially for classes like VOPs that did not work so well at first.
-
-*  **Learning by Doing**
-    * I found that the best way to learn machine learning is by actually doing it. Trying things out, making mistakes, and fixing them helped me understand more than just watching videos or reading. Most                         importantly, working on this project helped things make more sense.
-
----
-
-## Potential Applications & Future Direction
-
-While this project is intended as a self-exploration into computer vision and geospatial workflows, and there are no plans for further training, the current model and its development process still sugest several exciting directions this work could be extended to:
-
-* **Crop Health monitoring**
-    - Integrate NDVI or RGB-based sensors to classify tree health based on leaf color, canopy density, or even signs of pest/disease stress.
-* **Mature/Immature Tree Classification**
-    - Expand class labels to detect between mature palms, young palms, or recently planted areas.
-* **Spatial Mapping & Yield Estimation**
-    - Combine detection result with GPS/Coordinate data and plantation metadata to estimate tree counts per block or per hectare, aiding in yield planning or       auditing.
- 
-**This ideas are not implemented in this project but represented valuable extensions for those interested in combining machine learning with agriculture, GIS, remote sensing, particularly from a learning and experimentation perspective.**
-
+  
 ---
 
 ## References
