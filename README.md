@@ -1,7 +1,7 @@
 # Oil-Palm-Tree-Detection-with-YOLOv8
 **This is an exploratory project** created while learning Python and Computer Vision. It aims to apply YOLOv8 to drone imagery for oil palm detection as part of a personal geospatial and machine learning journey.
 
-This project demonstrates a custom-trained YOLOv8 model to detect **Oil Palm Trees** and **VOPs** (Voluntereed Oil Palms) from drone imagery. This is totally an exploratory project for me, part of my own geospatial and machine learning adventure. What i really want to show with it is how even a custom-trained YOLOv8 model can be put together using a **super simple (basic)** method. So if you're beginner looking to get into machine learning, especially object detection, this is definetly a great starting point to see how it all comes together.
+This project demonstrates a custom-trained YOLOv8 model to detect **Oil Palm Trees** and **VOPs** (Volunteered Oil Palms) from drone imagery. This is totally an exploratory project for me, part of my own geospatial and machine learning adventure. What I really want to show with it is how even a custom-trained YOLOv8 model can be put together using a **super simple (basic)** method. So if you're beginner looking to get into machine learning, especially object detection, this is definetly a great starting point to see how it all comes together.
 
 ---
 
@@ -47,6 +47,7 @@ The original images were captured at approximately **200 meter altitude**, where
 ---
 
 ## Data Annotation
+
 A total of **387 images** were annotated using [Label-Studio](https://labelstud.io/)
 
 Bounding boxes manually drawn for:
@@ -91,16 +92,23 @@ Run object detection on images, folders or videos using the final trained model.
 
 ## Key Results & Takeaways
 
+<details>
+  
+<summary>Click to expand</summary>
+
 * **Elevated 'VOPs' Precision:** Fine-tuning efforts yielded positive steps forward in identifying "VOPs" more accurately, and encouraging sign for this more challenging class.
 * **Solid "Oil Palm" Foundations:** The model largely  retained its strong ability to detect "Oil Palm", indicating that its core capabilities were well-preserved during adaption.
 * **A More Balanced Approach:** This iteration of the model demonstrates a more balanced performance across both categories, providing a more consistent detection experiences as i continue the investigation.
 
+</details>
+
 ### Model Performance
+
 **For a comprehensive look at the detection capabilities**
 
 * **[Explore Pretrained Model results Here](Results/Pretrained/README_PRETRAINED.md)**
 * **[Discover Fine-tuned Model & Comparision Performance Here](Results/Finetuned_model/README_FINETUNED.md)**
-
+  
 ### Important
 * **CONTEXTUAL DETECTION RANGE:** It's important to note that this model was primarily trained on imagery captured within a **30-50 meter range**. Its detection capabilities may therefore be limited or less reliable when applied to significantly higher zoom-out level images.
 
@@ -114,6 +122,8 @@ Run object detection on images, folders or videos using the final trained model.
 
 ## Project Scope & Learning Intent
 
+<details> 
+<summary>Click to expand</summary>
 This project was created as part of my learning journey in geospatial data, machine learning, and python. It is not intended to be a final or deployable product. but rather a hands-on exploration into how object detection works using drone imagery and YOLOv8n.
 
 ### Key Notes:
@@ -121,9 +131,11 @@ This project was created as part of my learning journey in geospatial data, mach
 * Annotation was done using **Label-Studio**, focusing on two classes: **Oil Palm** and **VOPs**.
 * Images were captured under various lighting conditions to add diversity, but the model was not aggressively optimized for such variation.
 * **No further training or model updates** are currently planned, this is intended as a personal exploration.
-  
+
+</details>
+    
 * **I hope this repository can serve as a helpful reference for others who are curious about starting out in machine learning or working with real-world drone and geospatial data.**
-  
+ 
 ---
 
 ## References
