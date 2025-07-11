@@ -153,9 +153,16 @@ You are welcome to **explore**, **modify the base code**, and reuse it for **lea
 ---
 
 ### License
-This project is licensed under the [**MIT License**](https://opensource.org/licenses/MIT)
+GNU AFFERO GENERAL PUBLIC LICENSE
+                       Version 3, 19 November 2007
 
-You are free to use, modify, and distribute the code and resources for personal or commercial purposes, as long as proper attribution is provided. See the [LICENSE](License) file for full details.
+Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
+
+Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.
+
+
+[For the full text](https://www.gnu.org/licenses/agpl-3.0.txt)
+
 
 
 
