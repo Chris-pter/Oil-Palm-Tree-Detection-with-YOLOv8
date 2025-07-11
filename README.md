@@ -21,7 +21,7 @@ This project demonstrates a custom-trained YOLOv8 model to detect **Oil Palm Tre
 Below is a sample of the model detecting Oil Palm in actual drone-captured video:
 
 <p align="center">
-  <img src="Images/Detection.gif" width="500"/>
+  <img src="Images/Detection.gif" width="800"/>
 </p>
 
 ---
