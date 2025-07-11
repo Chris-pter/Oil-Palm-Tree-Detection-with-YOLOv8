@@ -148,7 +148,7 @@ This project was created as part of my learning journey in geospatial data, mach
 * [Ultralytics YOLO Docs](https://docs.ultralytics.com/)-For model training, inference, and export workflows.
 * [Label Studio](https://labelstud.io/)-For flexible image annotation and YOLO-format export.
 
-You are welcome to **explore**, **modify the base code**, and reuse it for **non-commercial learning**, **testing, and experimentation.**
+You are welcome to **explore**, **modify the base code**, and reuse it for **learning**, **testing, and experimentation.**
 
 ---
 
